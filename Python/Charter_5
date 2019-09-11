@@ -1,0 +1,24 @@
+musical = ["Eminem", "Oxxxy", "Anacondaz"]
+geology = (44.5577, 53.4235, 32.3424)
+about_me = {"age": 25 ,
+            "height": 187,
+            "wight": 75
+            }
+print(about_me)
+N = input("что ты любишь или нравится в тебе: ")
+N = int(N)
+
+if N < 70:
+    ages = about_me["age"]
+    ages = str(ages)
+    print("me " + ages)
+
+elif N >= 150:
+    heights = about_me["height"]
+    heights = str(heights)
+    print("me " + heights)
+
+elif N >= 70:
+    wights = about_me["wight"]
+    wights = str(wights)
+    print("me " + wights)
